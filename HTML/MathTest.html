@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="img_main" href="/img/Ellipse 1.png">
+    <link rel="male_user" href="/img/Male User.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <title>ПОВНІ 200</title>
+  </head>
+  <body>
+    <header>
+      <ul class = container>
+        <li class="logo">
+          <img class="mainImg" src="/img/Namet.png" alt="">
+        </li>
+        <div class = button-box>
+        <button class="button" id="myButton" onclick="goToMain()">Головна</button>
+        <button class="button" id="myButton" onclick="goToNews()">Новини</button>
+        <div class="ul"> Підготовка до НМТ
+          <div class="tooltip">
+          <button class="buttonTech" id="myButton" onclick="goToMath()">Математика</button>
+          <button class="buttonTech" id="myButton" onclick="goToLang()">Українська мова</button>
+          <button class="buttonTech" id="myButton" onclick="goToEngl()">Англійська мова</button>
+          <button class="buttonTech" id="myButton" onclick="goToHist()">Історія України</button>
+          </div>
+        </div>
+        <button class="button" id="myButton" onclick="goToHelp()">Психологічна допомога</button>
+        </div>
+        <li class="logo">
+          <button class="maleUser" id="showFormButton"><img class="maleUser" src="/img/Male User.png" alt=""></button>
+        </li>
+      </ul>
+    </header>
+    <div id="popupForm" class="popup">
+      <div class="popup-content">
+          
+          <!-- Тут розмістіть вашу форму -->
+          <img class="authorImg" src="/img/Male User.png" alt="">
+          <form>
+              <!-- Ваші поля форми тут -->
+          <input class="inputArr" type="text" id="name" name="name" placeholder="Логін">
+
+          <input class="inputArr" type="text" id="email" name="email" placeholder="Пароль">
+
+          <!-- Додайте більше полів за необхідності -->
+
+          <button class="buttonForm" type="submit">Вхід</button>
+          </form>
+      </div>
+  </div>
+    <div class = "testGroup">
+        <h2 class = testName>Математика</h2>
+        <div class = "quest">
+            <span class="tab"></span>1.  Група з 15 школярів у супроводі трьох дорослих планує автобусну екскурсію в заповідник. Оренда автобуса для екскурсії коштує 800 грн. Вартість вхідного квитка в заповідник становить 20 грн для школяра й 50 грн – для дорослого. Якої мінімальної суми грошей достатньо для проведення цієї екскурсії?
+        </div>
+        <div class = "answer" id="question1">
+        <button class="buttonAnswer" id="answerA1" onclick="checkAnswer('А', 'question1', this)">А</button>
+        <p class="textAnswer">1050 грн</p>
+        <p class="result" id="question1-result"></p>         
+        <button class="buttonAnswer" id="answerБ1" onclick="checkAnswer('Б', 'question1', this)">Б</button>
+        <p class = textAnswer> 1150 грн</p>
+        <p class="result" id="question1-result"></p>
+        <button class="buttonAnswer" id="answerВ1" onclick="checkAnswer('В', 'question1', this)">В</button>
+        <p class = textAnswer> 1250 грн</p>
+        <p class="result" id="question1-result"></p>
+        <button class="buttonAnswer" id="answerГ1" onclick="checkAnswer('Г', 'question1', this)">Г</button>
+        <p class = textAnswer> 875 грн</p>
+        <p class="result" id="question1-result"></p>
+        </div>
+        <div class = "quest">
+            <span class="tab"></span>2.   На рисунку зображено графік залежності шляху S (у км), пройденого групою туристів, від часу t (у год). Яке з наведених тверджень є правильним?
+            <div class = imgQ><img class="questImg2" src="/img/quest2.png" alt=""></div>
+        </div>
+        <div class = "answer" id="question2">
+        <button class="buttonAnswer" id="answerA2" onclick="checkAnswer('А', 'question2', this)">А</button>
+        <p class = textAnswer>Зупинка тривала 4 години.</p>
+        <p class="result" id="question2-result"></p> 
+        <button class="buttonAnswer" id="answerБ2" onclick="checkAnswer('Б', 'question2', this)">Б</button>
+        <p class = textAnswer>До зупинки туристи пройшли 20 км.</p>
+        <p class="result" id="question2-result"></p>
+        <button class="buttonAnswer" id="answerВ2" onclick="checkAnswer('В', 'question2', this)">В</button>
+        <p class = textAnswer>Після зупинки туристи пройшли більшу відстань, ніж до зупинки.</p>
+        <p class="result" id="question2-result"></p>
+        <button class="buttonAnswer" id="answerГ2" onclick="checkAnswer('Г', 'question2', this)">Г</button>
+        <p class = textAnswer>Туристи зробили зупинку через 4 години після початку руху.</p>
+        <p class="result" id="question2-result"></p>
+        </div>
+        <div class = "quest">
+            <span class="tab"></span>3.   Сума довжин усіх ребер прямокутного паралелепіпеда, що виходять з однієї вершини, дорівнює 60 см. Визначте суму довжин усіх ребер цього паралелепіпеда.
+        </div>
+        <div class = "answer" id="question3">
+        <button class="buttonAnswer" id="answerA3" onclick="checkAnswer('А', 'question3', this)">А</button>
+        <p class = textAnswer>360 см</p>
+        <p class="result" id="question3-result"></p>
+        <button class="buttonAnswer" id="answerБ3" onclick="checkAnswer('Б', 'question3', this)">Б</button>
+        <p class = textAnswer>240 см</p>
+        <p class="result" id="question3-result"></p>
+        <button class="buttonAnswer" id="answerВ3" onclick="checkAnswer('В', 'question3', this)">В</button>
+        <p class = textAnswer>180 см</p>
+        <p class="result" id="question3-result"></p>
+        <button class="buttonAnswer" id="answerГ3" onclick="checkAnswer('Г', 'question3', this)">Г</button>
+        <p class = textAnswer>120 см</p>
+        <p class="result" id="question3-result"></p>
+        </div>
+        <div class = "quest">
+            <span class="tab"></span>4.  Розв’яжіть рівняння x/10=2,5.
+        </div>
+        <div class = "answer" id="question4">
+        <button class="buttonAnswer" id="answerА4" onclick="checkAnswer('А', 'question4', this)">А</button>
+        <p class = textAnswer>0,25</p>
+        <button class="buttonAnswer" id="answerБ4" onclick="checkAnswer('Б', 'question4', this)">Б</button>
+        <p class = textAnswer>4</p>
+        <button class="buttonAnswer" id="answerВ4" onclick="checkAnswer('В', 'question4', this)">В</button>
+        <p class = textAnswer>12,5</p>
+        <button class="buttonAnswer" id="answerГ4" onclick="checkAnswer('Г', 'question4', this)">Г</button>
+        <p class = textAnswer>25</p>
+        </div>
+        <div class = "quest">
+            <span class="tab"></span>5.  На рисунку зображено трапецію ABCD. Визначте градусну міру кута BCD, якщо ∠ADB=35∘,∠BDC=20∘.
+            <div class = imgQ><img class="questImg2" src="/img/quest5.png" alt=""></div>
+        </div>
+        <div class = "answer" id="question5">
+        <button class="buttonAnswer" id="answerА5" onclick="checkAnswer('А', 'question5', this)">А</button>
+        <p class = textAnswer>125°</p>
+        <button class="buttonAnswer" id="answerБ5" onclick="checkAnswer('Б', 'question5', this)">Б</button>
+        <p class = textAnswer>165°</p>
+        <button class="buttonAnswer" id="answerВ5" onclick="checkAnswer('В', 'question5', this)">В</button>
+        <p class = textAnswer>155°</p>
+        <button class="buttonAnswer" id="answerГ5" onclick="checkAnswer('Г', 'question5', this)">Г</button>
+        <p class = textAnswer>145°</p>
+        <button class="buttonAnswer" id="answerД5" onclick="checkAnswer('Д', 'question5', this)">Д</button>
+        <p class = textAnswer>140°</p>
+        </div>
+        <div class = "quest">
+          <span class="tab"></span>6.  На рисунку зображено графік функції y=f(x), визначеної на проміжку [–2; 4]. Укажіть точку екстремуму цієї функції.
+          <div class = imgQ><img class="questImg2" src="/img/quest6.png" alt=""></div>
+      </div>
+      <div class = "answer" id="question6">
+        <button class="buttonAnswer" id="answerА6" onclick="checkAnswer('А', 'question6', this)">А</button>
+        <p class = textAnswer>x0=−2</p>
+        <button class="buttonAnswer" id="answerБ6" onclick="checkAnswer('Б', 'question6', this)">Б</button>
+        <p class = textAnswer>x0=−1</p>
+        <button class="buttonAnswer" id="answerВ6" onclick="checkAnswer('В', 'question6', this)">В</button>
+        <p class = textAnswer>x0=1</p>
+        <button class="buttonAnswer" id="answerГ6" onclick="checkAnswer('Г', 'question6', this)">Г</button>
+        <p class = textAnswer>x0=3</p>
+        <button class="buttonAnswer" id="answerД6" onclick="checkAnswer('Д', 'question6', this)">Д</button>
+        <p class = textAnswer>x0=4</p>
+        </div>
+        <div class = "quest">
+          <span class="tab"></span>7.   (a-4)2-a2
+      </div>
+      <div class = "answer" id="question7">
+        <button class="buttonAnswer" id="answerА7" onclick="checkAnswer('А', 'question7', this)">А</button>
+        <p class = textAnswer>−8a+16</p>
+        <button class="buttonAnswer" id="answerБ7" onclick="checkAnswer('Б', 'question7', this)">Б</button>
+        <p class = textAnswer>8a+16</p>
+        <button class="buttonAnswer" id="answerВ7" onclick="checkAnswer('В', 'question7', this)">В</button>
+        <p class = textAnswer>16</p>
+        <button class="buttonAnswer" id="answerГ7" onclick="checkAnswer('Г', 'question7', this)">Г</button>
+        <p class = textAnswer>−4a+16</p>
+        <button class="buttonAnswer" id="answerД7" onclick="checkAnswer('Д', 'question7', this)">Д</button>
+        <p class = textAnswer>−4a-16</p>
+        </div>
+        <div class = "quest">
+          <span class="tab"></span>8.  15^3/3^2
+        </div>
+        <div class = "answer" id="question8">
+          <button class="buttonAnswer" id="answerА8" onclick="checkAnswer('А', 'question8', this)">А</button>
+          <p class = textAnswer>5</p>
+          <button class="buttonAnswer" id="answerБ8" onclick="checkAnswer('Б', 'question8', this)">Б</button>
+          <p class = textAnswer>15</p>
+          <button class="buttonAnswer" id="answerВ8" onclick="checkAnswer('В', 'question8', this)">В</button>
+          <p class = textAnswer>125</p>
+          <button class="buttonAnswer" id="answerГ8" onclick="checkAnswer('Г', 'question8', this)">Г</button>
+          <p class = textAnswer>375</p>
+          <button class="buttonAnswer" id="answerД8" onclick="checkAnswer('Д', 'question8', this)">Д</button>
+          <p class = textAnswer>675</p>
+          </div>
+          <div class = "quest" style="white-space: pre-line;">
+            <span class="tab"></span>9. Які з наведених тверджень є правильними?
+            I.   Діагоналі будь-якого паралелограма рівні.
+            II.  Протилежні кути будь-якого паралелограма рівні.
+            III. Відстані від точки перетину діагоналей будь-якого паралелограма до його протилежних сторін рівні.
+          </div>
+          <div class="answer" id="question9">
+            <button class="buttonAnswer" id="answerА9" onclick="checkAnswer('А', 'question9', this)">А</button>
+            <p class="textAnswer">лише ІІ</p>
+            <button class="buttonAnswer" id="answerБ9" onclick="checkAnswer('Б', 'question9', this)">Б</button>
+            <p class="textAnswer">лише І і ІІІ</p>
+            <button class="buttonAnswer" id="answerВ9" onclick="checkAnswer('В', 'question9', this)">В</button>
+            <p class="textAnswer">І, ІІ, ІІІ</p>
+            <button class="buttonAnswer" id="answerГ9" onclick="checkAnswer('Г', 'question9', this)">Г</button>
+            <p class="textAnswer">лише І і ІІ</p>
+            <button class="buttonAnswer" id="answerД9" onclick="checkAnswer('Д', 'question9', this)">Д</button>
+            <p class="textAnswer">лише ІІ і ІІІ</p>
+        </div>
+        <div class = "quest" style="white-space: pre-line;">
+          <span class="tab"></span>10. {6(x+5)+10y=3|2x=y+4. 
+            Для одержаного розв’язку (x0;y0) укажіть суму x0+y0
+        </div>
+        <div class="answer" id="question10">
+          <button class="buttonAnswer" id="answerА10" onclick="checkAnswer('А', 'question10', this)">А</button>
+          <p class="textAnswer">–2,5</p>
+          <button class="buttonAnswer" id="answerБ10" onclick="checkAnswer('Б', 'question10', this)">Б</button>
+          <p class="textAnswer">–3,5</p>
+          <button class="buttonAnswer" id="answerВ10" onclick="checkAnswer('В', 'question10', this)">В</button>
+          <p class="textAnswer">3,5</p>
+          <button class="buttonAnswer" id="answerГ10" onclick="checkAnswer('Г', 'question10', this)">Г</button>
+          <p class="textAnswer">6,5</p>
+          <button class="buttonAnswer" id="answerД10" onclick="checkAnswer('Д', 'question10', this)">Д</button>
+          <p class="textAnswer">–1,5</p>
+        </div>
+        <button class="submitTestButton" onclick="submitTest()">Здати тест</button>
+
+  </div>
+
+</body>
+<script src="/js/script.js"></script>
+</html>

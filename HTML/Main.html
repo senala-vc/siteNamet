@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="img_main" href="/img/Ellipse 1.png">
+    <link rel="male_user" href="/img/Male User.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <title>ПОВНІ 200</title>
+  </head>
+  <body>
+    <header>
+      <ul class = container>
+        <li class="logo">
+          <img class="mainImg" src="/img/Namet.png" alt="">
+        </li>
+        <div class = button-box>
+        <button class="button" id="myButton" onclick="goToMain()">Головна</button>
+        <button class="button" id="myButton" onclick="goToNews()">Новини</button>
+        <div class="ul"> Підготовка до НМТ
+          <div class="tooltip">
+          <button class="buttonTech" id="myButton" onclick="goToMath()">Математика</button>
+          <button class="buttonTech" id="myButton" onclick="goToLang()">Українська мова</button>
+          <button class="buttonTech" id="myButton" onclick="goToEngl()">Англійська мова</button>
+          <button class="buttonTech" id="myButton" onclick="goToHist()">Історія України</button>
+          </div>
+        </div>
+        <button class="button" id="myButton" onclick="goToHelp()">Психологічна допомога</button>
+        </div>
+        <li class="logo">
+        <button class="maleUser" id="showFormButton"><img class="maleUser" src="/img/Male User.png" alt=""></button>
+        </li>
+      </ul>
+      
+    </header>
+    
+    <main>
+      <div id="popupForm" class="popup">
+        <div class="popup-content">
+            
+            <!-- Тут розмістіть вашу форму -->
+            <img class="authorImg" src="/img/Male User.png" alt="">
+            <form>
+                <!-- Ваші поля форми тут -->
+            <input class="inputArr" type="text" id="name" name="username" placeholder="Логін">
+
+            <input class="inputArr" type="text" id="email" name="password" placeholder="Пароль">
+
+            <!-- Додайте більше полів за необхідності -->
+
+            <button class="buttonForm" type="submit" onclick="login()">Вхід</button>
+            </form>
+        </div>
+    </div>
+      <div class = head-page>
+      <h1 class = head-tez>Хочеш омріяні 200?</h1>
+      <p class="p1">  Тоді ми тобі допоможемо. За допомогою нашого сервісу 
+        ти матимеш можливість ефективно підготуватися до 
+        виконання завдань з української мови, математики, 
+        історії України та англійської мови.</p>
+        <img class="imgOnMain"  src="/img/Ellipse 1.png" alt="">
+        <p class="p2"> На сайті представлені тренувальні вправи для кожного </n>
+          предмету. Після виконання тренувальних тестів онлайн ти зможеш 
+          ознайомитись з правильними відповідями та опрацьовувати коментарі 
+          з поясненнями тих завдань, які виявилися проблемними для 
+          виконання.</p>
+        <p class="p3"> На сайті представлені тренувальні вправи для кожного </n>
+            предмету. Після виконання тренувальних тестів онлайн ти зможеш 
+            ознайомитись з правильними відповідями та опрацьовувати коментарі 
+            з поясненнями тих завдань, які виявилися проблемними для 
+            виконання.</p>
+        </div>
+        
+    </main>
+      
+  </body>
+  <script src="/js/script.js"></script>
+</html>

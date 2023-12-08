@@ -1,0 +1,528 @@
+* {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+  background: #F5A407;
+  width: auto;
+  margin: auto;
+  padding: auto;
+  border: auto;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 80px;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+}
+
+.ul{
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+  margin-left: 40px;
+  color: #FFF;
+  word-spacing: normal;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+ .container {
+  max-width: 1920px;
+ }
+ .button-box {
+  max-width:1600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 80px;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+ }
+
+li {
+  list-style: none;
+  margin-left: 40px;
+  color: #FFF;
+  word-spacing: normal;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main {
+  background: linear-gradient(180deg, #F9A603 0%, #FFC148 100%);
+  padding-top: 100px;
+  padding-bottom: 100%;
+  height: 100vh;
+  margin: auto;
+  padding: auto;
+  border: auto;
+}
+
+.head-page {
+  max-width: 1920px;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.20);
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button {
+  border: none;
+  padding: 0;
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  list-style: none;
+  margin-left: 40px;
+  color: #FFF;
+  word-spacing: normal;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logo {
+  position: relative;
+  right: end;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+
+
+.p1{
+  
+  text-align: left;
+  font-weight: normal;
+  line-height: normal;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 35px;
+  max-width: 900px;
+  max-height: 250px;
+  margin-right: 7%;
+  margin-top: 5%;
+}
+
+.imgOnMain {
+  margin-top: -12%;
+  max-width: 560px;
+  max-height: 560px;
+}
+
+.p2 {
+  margin-top: -15%;
+  margin-right: 4%;
+  text-align: left;
+  font-weight: normal;
+  line-height: normal;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 35px;
+  max-width: 1200px;
+  max-height: 250px;
+}
+
+.p3{
+  text-align: left;
+  font-weight: normal;
+  line-height: normal;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 35px;
+  max-width: 1200px;
+  max-height: 250px;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+.maleUser {
+  max-width: 90px;
+  max-height: 90px;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  background-color: transparent;
+}
+
+.mainImg {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  max-width: 1561px;
+  margin-top: 50px;
+}
+
+.study {
+  display: grid;
+  place-items: center;
+  height: 602px;
+  width: 1024px;
+  margin-top: 30px;
+}
+
+.newsText {
+  margin-top: 30px;
+  text-align: left;;
+  max-width: 1450px;
+  font-size: 32px;
+  font-family: Inter;
+}
+
+.tab {
+  display: inline-block;
+  width: 30px; /* Задайте ширину табуляції в пікселях або інші одиниці виміру */
+}
+
+.titleHelp{
+  color: black;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  max-width: 1650px;
+  margin-top: 50px;
+  max-height: 58.09px
+}
+
+.help {
+  display: grid;
+  place-items: center;
+  height: 414px;
+  width: 811px;
+  margin-top: 30px;
+}
+
+.PsyhHelpStep {
+  align-items: center;
+  max-width: 1560px;
+}
+
+.step1 {
+  width: 700px;
+  height: 120px;
+  background-color: #F5A407;
+  color: #000000;
+  text-align: left;
+  line-height: 100px;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: 1;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.step2 {
+  width: 700px;
+  height: 120px;
+  background-color: #F5A407;
+  color: #000000;
+  text-align: left;
+  line-height: 100px;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: 1;
+  margin-top: -120px;
+  margin-right: 0px;
+  padding: 10px;
+}
+
+.step3 {
+  width: 700px;
+  height: 120px;
+  background-color: #F5A407;
+  color: #000000;
+  text-align: left;
+  line-height: 100px;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: 1;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.step4 {
+  width: 700px;
+  height: 120px;
+  background-color: #F5A407;
+  color: #000000;
+  text-align: left;
+  line-height: 100px;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: 1;
+  margin-top: -120px;
+  margin-right: 0px;
+  padding: 10px;
+}
+
+.step5 {
+  width: 1560px;
+  height: 120px;
+  background-color: #F5A407;
+  color: #000000;
+  text-align: left;
+  line-height: 100px;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: 1;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.step6 {
+  width: 1560px;
+  height: 120px;
+  background-color: #F5A407;
+  color: #000000;
+  text-align: left;
+  line-height: 100px;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: 1;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.list-item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip {
+  width: 712px;
+  height: 355px;
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #D99000;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  top: 20px; /* Змініть це значення, щоб налаштувати відстань боксу від елементу */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ul:hover .tooltip {
+  display: block;
+}
+
+.buttonTech {
+  width: 655px;
+  height: 72px;
+  margin-top: 10px;
+  border: none;
+  padding: 0;
+  background-color: #C07F00;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  list-style: none;
+  color: #FFF;
+  word-spacing: normal;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.testGroup {
+  max-width: 1800px;
+}
+
+.testName {
+  font-size: 64px;
+  font-family: Inter;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.quest {
+  width: 1600px;
+  height: auto;
+  background-color: #F5A407;
+  color: #000000;
+  text-align: left;
+  line-height: 100px;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: 1;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.answer {
+  max-width: 1600px;
+}
+
+.buttonAnswer {
+  width: 70px;
+  height: 70px;
+  margin-top: 25px;
+  border: none;
+  padding: 0;
+  background-color: #828181;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  list-style: none;
+  color: #000000;
+  word-spacing: normal;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.textAnswer {
+  font-family: Inter;
+  font-size: 36px;
+  margin-top: -55px;
+  margin-left: 80px;
+}
+
+.questImg2 {
+  height: 350px;
+  width: 450px;
+  margin-top: 20px;
+}
+
+.popup {
+  max-height: 800px;
+  max-width: 600px;
+  position: fixed;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.popup-content {
+  max-height: 800px;
+  max-width: 600px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  background-color: #D99000;
+  border: none;
+  
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.authorImg {
+  padding-top: 25px;
+  max-width: 190px;
+  max-height: 190px;
+  display: block;
+  margin: 0 auto;
+}
+
+.inputArr {
+  font-size: 36px;
+  max-width: 450px;
+  height: 72px;
+  margin-top: 35px;
+  background-color: #C07F00;
+  border: none;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.inputArr:hover {
+  border: none;
+}
+
+
+.buttonForm {
+  font-size: 36px;
+  font-style: Inter;
+  color: #FFF;
+  max-width: 450px;
+  height: 72px;
+  background-color: #4E3300;
+  margin-top: 60px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.inputArr::placeholder {
+  text-indent: 10px; /* Відступ тексту від лівого краю */
+  padding-left: 10px; /* Додатковий внутрішній відступ ліворуч */
+}
+
+.submitTestButton {
+  font-size: 36px;
+  font-style: Inter;
+  background-color: #4E3300;
+  color: #FFF;
+  max-width: 450px;
+  height: 72px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
